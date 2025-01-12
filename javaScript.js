@@ -20,5 +20,16 @@ function getComputerChoice() {
         console.log(error);
     }
 
-    return choice;
+    console.log(choice);
 }
+
+// A logic to get the human choice
+// Create a new function named getHumanChoice
+// Recieve choice via prompt
+// Return human's choice
+function getHumanChoice() {
+    let humanChoice = prompt("Please choose Rock, Paper or Scissors");
+
+    console.log(humanChoice);
+}
+
